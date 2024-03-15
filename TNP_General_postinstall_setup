@@ -1,55 +1,57 @@
-~welcome channel #the-agora
-~welcome join channel #welcome-hut
-~welcome join message add Greetings, {member.mention}! Do you have a nation on nationstates.net? If so, could you post a direct link to that nation, please? Thanks!
-~welcome leave message add {member.name} has left the server.
-~welcome unban message add 🕊️ {member.name} has been unbanned.
-~welcome ban message add 🔨 {member.name} has been banned.
-~welcome join message delete
-[reply 1]
-~welcome leave message delete
-[reply 1]
-~welcome ban message delete
-[reply 1]
-~welcome unban message delete
-[reply 1]
-~welcome toggle
-~modlogset modlog #moderation
-~modlog channel #server-logs message_edit
-~modlog channel #server-logs message_delete
-~modlog toggle true message_edit message_delete
-~selfroleset add "Chess" "Tech Guild" "Cards Guild" "Gamers"
-~set roles addadminrole Administrator
-~set roles addmodrole Moderator
-~permissions setdefaultserverrule deny Trivia
-~permissions setdefaultserverrule deny Economy
-~permissions addserverrule allow Economy #bot-commands
-~permissions addserverrule allow Trivia #bot-commands
-~alias add iam selfrole add
-~alias add iamnot selfrole remove
+### [p] is your Prefix! For TNP usage, it is recommended to use both ~ and ! as prefixes. I use ++ for preparing a new bot while the old one is running and do a prefix swap later.
 
-~cc add citizen You can apply for citizenship, which allows you to stand for election and vote, here:
+[p]welcome channel #the-agora
+[p]welcome join channel #welcome-hut
+[p]welcome join message add Greetings, {member.mention}! Do you have a nation on nationstates.net? If so, could you post a direct link to that nation, please? Thanks!
+[p]welcome leave message add {member.name} has left the server.
+[p]welcome unban message add 🕊️ {member.name} has been unbanned.
+[p]welcome ban message add 🔨 {member.name} has been banned.
+[p]welcome join message delete
+   ([reply 1])
+[p]welcome leave message delete
+   ([reply 1])
+[p]welcome ban message delete
+   ([reply 1])
+[p]welcome unban message delete
+   ([reply 1])
+[p]welcome toggle
+[p]modlogset modlog #moderation
+[p]modlog channel #server-logs message_edit
+[p]modlog channel #server-logs message_delete
+[p]modlog toggle true message_edit message_delete
+[p]selfroleset add "Chess" "Tech Guild" "Cards Guild" "Gamers"
+[p]set roles addadminrole Administrator
+[p]set roles addmodrole Moderator
+[p]permissions setdefaultserverrule deny Trivia
+[p]permissions setdefaultserverrule deny Economy
+[p]permissions addserverrule allow Economy #bot-commands
+[p]permissions addserverrule allow Trivia #bot-commands
+[p]alias add iam selfrole add
+[p]alias add iamnot selfrole remove
+
+[p]cc add citizen You can apply for citizenship, which allows you to stand for election and vote, here:
 https://forum.thenorthpacific.org/topic/9145386/
 
-~cc add faq If you're new to NationStates and don't know where to start, we recommend the FAQ, which you can find to the left of any page under the Help link. Here's a direct link to it for your convenience: https://www.nationstates.net/page=faq
+[p]cc add faq If you're new to NationStates and don't know where to start, we recommend the FAQ, which you can find to the left of any page under the Help link. Here's a direct link to it for your convenience: https://www.nationstates.net/page=faq
 
-~cc add handbook You can view the North Pacific Handbook for a plethora of information about the region and various ways to get involved here: https://www.nationstates.net/page=dispatch/id=851343
+[p]cc add handbook You can view the North Pacific Handbook for a plethora of information about the region and various ways to get involved here: https://www.nationstates.net/page=dispatch/id=851343
 
-~cc add map The North Pacific does not have a regional map. If you're interested in roleplaying and want to be included on one of the RP community's various maps, see this dispatch for links and contact information: https://www.nationstates.net/page=dispatch/id=1465656
+[p]cc add map The North Pacific does not have a regional map. If you're interested in roleplaying and want to be included on one of the RP community's various maps, see this dispatch for links and contact information: https://www.nationstates.net/page=dispatch/id=1465656
 
-~cc add npa You can apply to join the North Pacific Army, military force of the North Pacific, here: 
+[p]cc add npa You can apply to join the North Pacific Army, military force of the North Pacific, here: 
 https://forum.thenorthpacific.org/topic/9145375
 
-~cc add resident You can apply for Resident masking here, and gain some basic access to most non-governmental areas of the forum: http://forum.thenorthpacific.org/topic/7306736/
+[p]cc add resident You can apply for Resident masking here, and gain some basic access to most non-governmental areas of the forum: http://forum.thenorthpacific.org/topic/7306736/
 Keep in mind that you should apply for Citizenship or the Executive Staff instead if you wish to become more involved in the government workings of the region. See the !citizen and !staff commands for details on those.
 
-~cc add rp https://discord.gg/QRCxEYZ
+[p]cc add rp https://discord.gg/QRCxEYZ
 
-~cc add staff Apply to join the Executive Staff and assist with programs in the Executive Government:
+[p]cc add staff Apply to join the Executive Staff and assist with programs in the Executive Government:
 https://forum.thenorthpacific.org/topic/7198621
 
-~cc add wadp Learn more about the World Assembly Development Program and how it keeps our region safe and powerful:
+[p]cc add wadp Learn more about the World Assembly Development Program and how it keeps our region safe and powerful:
 https://www.nationstates.net/page=dispatch/id=338370
 
-~cc add cards You can join the Cards Guild, which lets you win free cards and participate in cards-related events, here: https://forum.thenorthpacific.org/topic/9191329/
+[p]cc add cards You can join the Cards Guild, which lets you win free cards and participate in cards-related events, here: https://forum.thenorthpacific.org/topic/9191329/
 
-~cc add guild You can join the Cards Guild, which lets you win free cards and participate in cards-related events, here: https://forum.thenorthpacific.org/topic/9191329/
+[p]cc add guild You can join the Cards Guild, which lets you win free cards and participate in cards-related events, here: https://forum.thenorthpacific.org/topic/9191329/
