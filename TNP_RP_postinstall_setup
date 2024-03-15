@@ -1,0 +1,73 @@
+~welcome channel #the-gardens
+~welcome join message add {member.mention} has joined the server.
+~welcome leave message add {member.name} has left the server.
+~welcome unban message add 🕊️ {member.name} has been unbanned.
+~welcome ban message add 🔨 {member.name} has been banned.
+~welcome join message delete
+[reply 1]
+~welcome leave message delete
+[reply 1]
+~welcome ban message delete
+[reply 1]
+~welcome unban message delete
+[reply 1]
+~welcome toggle
+~modlogset modlog #mod-log
+~modlog channel #server-log message_edit
+~modlog channel #server-log message_delete
+~modlog toggle true message_edit message_delete
+~modlog ignore #forum-moderation
+~modlog ignore #admin-channel
+~modlog ignore #modconclave-microphoneless
+~modlog ignore #rmb-moderation
+~selfroleset add "RP Recruit" "Sorras RPer" "Aetherea RPer" "Imperium Galactica RPer" "Asheron RPer" "Inaius RPer" "RMB RPer" "Eras Sports" "Eras RPer"
+~set roles addadminrole Bot Admin
+~set roles addmodrole Moderator
+~permissions addserverrule deny selfrole #the-front-gates
+~permissions setdefaultserverrule deny Trivia
+~permissions setdefaultserverrule deny Economy
+
+~alias add iam selfrole add
+~alias add iamnot selfrole remove
+~alias add allowbot blacklist remove
+~alias add deat kick
+~alias add dos ban
+~alias add nobot blacklist add
+~alias add Iam selfrole add
+~alias add Iamnot selfrole remove
+~invoice set 638326558179852289 role Game Theorists
+~invoice set 398726942469259264 role Talkers
+~invoice set 275355251459227649 role Forum Talkers
+~invoice set 381950582321053706 role RMB Talkers
+~invoice set 666847645188358184 role Bard
+~invoice set 381950582321053706 self_deaf true
+~invoice set 275355251459227649 self_deaf true
+~invoice set 638326558179852289 self_deaf true
+~invoice set 398726942469259264 self_deaf true
+
+######### (Big Custom Command) #########
+
+++cc create intro "TNP RP occurs on the TNP Forums or RMB. Each platform has its own settings. You can be in any you like, or as many as you like. 
+
+The main Forum setting is called Eras. It's your standard Modern Tech (MT) RP setting.
+
+The main RMB setting is called Strangereal, or SR. It, like Eras, is a MT setting but the two approach things differently. 
+
+Eras is a bit slower paced, and tries to keep things as realistic as possible, while SR has a speedier pace and more freedom in what you can do with tech.  In Eras tech is at a modern level with tech that will be viable in 5-10 years also allowed. In SR you can have future tech, magic, medieval tech, whatever. 
+
+Eras is more collaborative and worldbuilding, SR is more freeform. 
+
+The other settings on the Forum are Inaius, a sci fi space RP. Imperium Galactica, a sci fi space RP that's based on feuding royal houses in a galactic empire, Asheron, a post-apocalyptic setting on Earth, and Sorras, the high fantasy setting.
+
+The other setting on the RMB is Aetherea. Which has a more steampunky vibe."
+
+######### (End Big Custom Command) #########
+
+~cc create erasmap The map of Eras can be found here: https://forum.thenorthpacific.org/topic/9189019/
+
+~cc create srmap The map of Strangereal can be found in this dispatch: https://www.nationstates.net/page=dispatch/id=19599553
+
+~cc create map An index of all our RP maps can be found in this dispatch: https://www.nationstates.net/page=dispatch/id=1465656
+
+~cc create where Looking for our forum RP area? Check this link out! : https://forum.thenorthpacific.org/forum/3024521/
+Need to find the RMB? Look here! : https://www.nationstates.net/page=display_region_rmb/region=the_north_pacific
