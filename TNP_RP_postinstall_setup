@@ -1,49 +1,51 @@
-~welcome channel #the-gardens
-~welcome join message add {member.mention} has joined the server.
-~welcome leave message add {member.name} has left the server.
-~welcome unban message add 🕊️ {member.name} has been unbanned.
-~welcome ban message add 🔨 {member.name} has been banned.
-~welcome join message delete
-[reply 1]
-~welcome leave message delete
-[reply 1]
-~welcome ban message delete
-[reply 1]
-~welcome unban message delete
-[reply 1]
-~welcome toggle
-~modlogset modlog #mod-log
-~modlog channel #server-log message_edit
-~modlog channel #server-log message_delete
-~modlog toggle true message_edit message_delete
-~modlog ignore #forum-moderation
-~modlog ignore #admin-channel
-~modlog ignore #modconclave-microphoneless
-~modlog ignore #rmb-moderation
-~selfroleset add "RP Recruit" "Sorras RPer" "Aetherea RPer" "Imperium Galactica RPer" "Asheron RPer" "Inaius RPer" "RMB RPer" "Eras Sports" "Eras RPer"
-~set roles addadminrole Bot Admin
-~set roles addmodrole Moderator
-~permissions addserverrule deny selfrole #the-front-gates
-~permissions setdefaultserverrule deny Trivia
-~permissions setdefaultserverrule deny Economy
+### [p] is your Prefix! For TNP usage, it is recommended to use both ~ and ! as prefixes. I use ++ for preparing a new bot while the old one is running and do a prefix swap later.
 
-~alias add iam selfrole add
-~alias add iamnot selfrole remove
-~alias add allowbot blacklist remove
-~alias add deat kick
-~alias add dos ban
-~alias add nobot blacklist add
-~alias add Iam selfrole add
-~alias add Iamnot selfrole remove
-~invoice set 638326558179852289 role Game Theorists
-~invoice set 398726942469259264 role Talkers
-~invoice set 275355251459227649 role Forum Talkers
-~invoice set 381950582321053706 role RMB Talkers
-~invoice set 666847645188358184 role Bard
-~invoice set 381950582321053706 self_deaf true
-~invoice set 275355251459227649 self_deaf true
-~invoice set 638326558179852289 self_deaf true
-~invoice set 398726942469259264 self_deaf true
+[p]welcome channel #the-gardens
+[p]welcome join message add {member.mention} has joined the server.
+[p]welcome leave message add {member.name} has left the server.
+[p]welcome unban message add 🕊️ {member.name} has been unbanned.
+[p]welcome ban message add 🔨 {member.name} has been banned.
+[p]welcome join message delete
+[reply 1]
+[p]welcome leave message delete
+[reply 1]
+[p]welcome ban message delete
+[reply 1]
+[p]welcome unban message delete
+[reply 1]
+[p]welcome toggle
+[p]modlogset modlog #mod-log
+[p]modlog channel #server-log message_edit
+[p]modlog channel #server-log message_delete
+[p]modlog toggle true message_edit message_delete
+[p]modlog ignore #forum-moderation
+[p]modlog ignore #admin-channel
+[p]modlog ignore #modconclave-microphoneless
+[p]modlog ignore #rmb-moderation
+[p]selfroleset add "RP Recruit" "Sorras RPer" "Aetherea RPer" "Imperium Galactica RPer" "Asheron RPer" "Inaius RPer" "RMB RPer" "Eras Sports" "Eras RPer"
+[p]set roles addadminrole Bot Admin
+[p]set roles addmodrole Moderator
+[p]permissions addserverrule deny selfrole #the-front-gates
+[p]permissions setdefaultserverrule deny Trivia
+[p]permissions setdefaultserverrule deny Economy
+
+[p]alias add iam selfrole add
+[p]alias add iamnot selfrole remove
+[p]alias add allowbot blacklist remove
+[p]alias add deat kick
+[p]alias add dos ban
+[p]alias add nobot blacklist add
+[p]alias add Iam selfrole add
+[p]alias add Iamnot selfrole remove
+[p]invoice set 638326558179852289 role Game Theorists
+[p]invoice set 398726942469259264 role Talkers
+[p]invoice set 275355251459227649 role Forum Talkers
+[p]invoice set 381950582321053706 role RMB Talkers
+[p]invoice set 666847645188358184 role Bard
+[p]invoice set 381950582321053706 self_deaf true
+[p]invoice set 275355251459227649 self_deaf true
+[p]invoice set 638326558179852289 self_deaf true
+[p]invoice set 398726942469259264 self_deaf true
 
 ######### (Big Custom Command) #########
 
@@ -63,11 +65,11 @@ The other setting on the RMB is Aetherea. Which has a more steampunky vibe."
 
 ######### (End Big Custom Command) #########
 
-~cc create erasmap The map of Eras can be found here: https://forum.thenorthpacific.org/topic/9189019/
+[p]cc create erasmap The map of Eras can be found here: https://forum.thenorthpacific.org/topic/9189019/
 
-~cc create srmap The map of Strangereal can be found in this dispatch: https://www.nationstates.net/page=dispatch/id=19599553
+[p]cc create srmap The map of Strangereal can be found in this dispatch: https://www.nationstates.net/page=dispatch/id=19599553
 
-~cc create map An index of all our RP maps can be found in this dispatch: https://www.nationstates.net/page=dispatch/id=1465656
+[p]cc create map An index of all our RP maps can be found in this dispatch: https://www.nationstates.net/page=dispatch/id=1465656
 
-~cc create where Looking for our forum RP area? Check this link out! : https://forum.thenorthpacific.org/forum/3024521/
+[p]cc create where Looking for our forum RP area? Check this link out! : https://forum.thenorthpacific.org/forum/3024521/
 Need to find the RMB? Look here! : https://www.nationstates.net/page=display_region_rmb/region=the_north_pacific
