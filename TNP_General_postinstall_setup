@@ -19,7 +19,7 @@
 [p]modlog channel #server-logs message_edit
 [p]modlog channel #server-logs message_delete
 [p]modlog toggle true message_edit message_delete
-[p]selfroleset add "Chess" "Tech Guild" "Cards Guild" "Gamers"
+[p]selfroleset add "Chess" "Tech Guild" "Cards Guild" "Gamers" "WA"
 [p]set roles addadminrole Administrator
 [p]set roles addmodrole Moderator
 [p]permissions setdefaultserverrule deny Trivia
