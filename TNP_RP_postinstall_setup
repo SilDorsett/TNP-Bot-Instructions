@@ -6,13 +6,13 @@
 [p]welcome unban message add 🕊️ {member.name} has been unbanned.
 [p]welcome ban message add 🔨 {member.name} has been banned.
 [p]welcome join message delete
-[reply 1]
+   ([reply 1])
 [p]welcome leave message delete
-[reply 1]
+   ([reply 1])
 [p]welcome ban message delete
-[reply 1]
+   ([reply 1])
 [p]welcome unban message delete
-[reply 1]
+   ([reply 1])
 [p]welcome toggle
 [p]modlogset modlog #mod-log
 [p]modlog channel #server-log message_edit
