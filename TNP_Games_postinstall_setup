@@ -1,0 +1,12 @@
+### [p] is your Prefix! For TNP usage, it is recommended to use both ~ and ! as prefixes. I use ++ for preparing a new bot while the old one is running and do a prefix swap later.
+
+[p]set roles addadminrole Overseer
+[p]set roles addmodrole Moderator
+[p]alias add iam selfrole add
+[p]alias add iamnot selfrole remove
+[p]selfroleset add "TIPper" "Venti Stans" "Imposters" "Werewolf Notify" "YuGiOh Notify" "Spyfall Notify" "Codenames Notify" "Secret Hitler Notify"
+
+[p]permissions setdefaultserverrule deny Trivia
+[p]permissions setdefaultserverrule deny Economy
+[p]permissions addserverrule allow Economy #casino
+[p]permissions addserverrule allow Trivia #trivia
