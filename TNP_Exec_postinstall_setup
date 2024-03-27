@@ -1,0 +1,24 @@
+### [p] is your Prefix! For TNP usage, it is recommended to use both ~ and ! as prefixes. I use ++ for preparing a new bot while the old one is running and do a prefix swap later.
+
+[p]set roles addadminrole Administrator
+[p]set roles addmodrole Delegate
+
+[p]welcome channel #the-atrium
+[p]welcome join channel #application-review
+[p]welcome join message add Greetings, {member.mention}! Please link your Ministry Application in order to be properly masked.
+[p]welcome leave message add {member.name} has left the server.
+[p]welcome unban message add 🕊️ {member.name} has been unbanned.
+[p]welcome ban message add 🔨 {member.name} has been banned.
+[p]welcome join message delete
+   ([reply 1])
+[p]welcome leave message delete
+   ([reply 1])
+[p]welcome ban message delete
+   ([reply 1])
+[p]welcome unban message delete
+   ([reply 1])
+[p]welcome toggle
+[p]permissions setdefaultserverrule deny Trivia
+[p]permissions setdefaultserverrule deny Economy
+[p]modlogset modlog #server-logs
+[p]modlog toggle true message_edit message_delete member_change voice_change member_join member_left invite_created
