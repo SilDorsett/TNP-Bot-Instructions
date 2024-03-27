@@ -9,6 +9,7 @@
 [p]repo add tobo-cogs https://github.com/Tobotimus/Tobo-Cogs
 [p]repo add FluffyCogs https://github.com/zephyrkul/FluffyCogs
 [p]repo add sravan-cogs https://github.com/sravan1946/sravan-cogs
+[p]repo add toxic-cogs https://github.com/NeuroAssassin/Toxic-Cogs
 
 [p]cog install FluffyCogs nationstates logsfrom invoice
 [p]cog install sravan-cogs timeout
@@ -17,5 +18,6 @@
 [p]cog install pcxcogs remindme
 [p]cog install tmerc-cogs welcome
 [p]cog install trusty-cogs starboard extendedmodlog retrigger
+[p]cog install toxic-cogs editor
 
-[p]load nationstates logsfrom invoice timeout updatered errorlogs rndstatus remindme welcome starboard extendedmodlog retrigger economy trivia
+[p]load editor nationstates logsfrom invoice timeout updatered errorlogs rndstatus remindme welcome starboard extendedmodlog retrigger economy trivia
