@@ -24,8 +24,10 @@
 [p]set roles addmodrole Moderator
 [p]permissions setdefaultserverrule deny Trivia
 [p]permissions setdefaultserverrule deny Economy
+[p]permissions setdefaultserverrule deny selfrole
 [p]permissions addserverrule allow Economy #bot-commands
 [p]permissions addserverrule allow Trivia #bot-commands
+[p]permissions addserverrule allow selfrole #bot-commands
 [p]alias add iam selfrole add
 [p]alias add iamnot selfrole remove
 
