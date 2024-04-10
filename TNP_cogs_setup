@@ -17,7 +17,7 @@
 [p]cog install aikaterna-cogs rndstatus
 [p]cog install pcxcogs remindme
 [p]cog install tmerc-cogs welcome
-[p]cog install trusty-cogs starboard extendedmodlog retrigger
+[p]cog install trusty-cogs starboard extendedmodlog retrigger inviteblocklist
 [p]cog install toxic-cogs editor
 
-[p]load editor nationstates logsfrom invoice timeout updatered errorlogs rndstatus remindme welcome starboard extendedmodlog retrigger economy trivia
+[p]load editor nationstates logsfrom invoice timeout updatered errorlogs rndstatus remindme welcome starboard extendedmodlog retrigger economy trivia inviteblocklist
