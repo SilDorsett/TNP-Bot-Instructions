@@ -77,3 +77,16 @@ https://www.nationstates.net/page=dispatch/id=338370
 [p]inviteblocklist immunity add 370696119157522432
 [p]inviteblocklist immunity add 147374863986851840
 [p]inviteblocklist immunity add 147374936363761664
+
+### Music!
+
+# Toggle autodeafen off
+[p]audioset autodeafen
+
+# Toggle status message on
+[p]audioset status
+
+[p]audioset maxvolume 50
+[p]audioset emptydisconnect 30
+
+
