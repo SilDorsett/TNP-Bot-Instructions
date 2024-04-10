@@ -73,3 +73,14 @@ The other setting on the RMB is Aetherea. Which has a more steampunky vibe."
 
 [p]cc create where Looking for our forum RP area? Check this link out! : https://forum.thenorthpacific.org/forum/3024521/
 Need to find the RMB? Look here! : https://www.nationstates.net/page=display_region_rmb/region=the_north_pacific
+
+### Music!
+
+# Toggle autodeafen off
+[p]audioset autodeafen
+
+# Toggle status message on
+[p]audioset status
+
+[p]audioset maxvolume 50
+[p]audioset emptydisconnect 30
