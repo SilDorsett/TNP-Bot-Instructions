@@ -57,3 +57,23 @@ https://www.nationstates.net/page=dispatch/id=338370
 [p]cc add cards You can join the Cards Guild, which lets you win free cards and participate in cards-related events, here: https://forum.thenorthpacific.org/topic/9191329/
 
 [p]cc add guild You can join the Cards Guild, which lets you win free cards and participate in cards-related events, here: https://forum.thenorthpacific.org/topic/9191329/
+
+### Discord Invite Blocking
+~inviteblocklist blockall true
+
+# Allow TNP Approved Invites
+~inviteblocklist allowlist add G9yC8Km
+~inviteblocklist allowlist add QRCxEYZ
+~inviteblocklist allowlist add GW8SrQh
+~inviteblocklist allowlist add TANguTt
+~inviteblocklist allowlist add QJMrpxk
+~inviteblocklist allowlist add Y7cmjynRhf
+~inviteblocklist allowlist add gQFN5VwbDR
+
+# Allow Overseer, Admin, Global Mod, Mod, Delegate, Exec Council to post other links
+~inviteblocklist immunity add 254386075005353984
+~inviteblocklist immunity add 147375452787310594
+~inviteblocklist immunity add 576972152209670155
+~inviteblocklist immunity add 370696119157522432
+~inviteblocklist immunity add 147374863986851840
+~inviteblocklist immunity add 147374936363761664
